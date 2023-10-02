@@ -244,3 +244,227 @@ header {
   word-wrap: break-word;
   text-align: center;
 }
+
+.top {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  border: 2px solid red;
+}
+
+body,
+h1,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.about {
+  width: 100%;
+  padding: 114px -1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 24px;
+}
+
+.header-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.title-3 {
+  width: 327px;
+  height: 54px;
+  color: #172b4d;
+  font-size: 40px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  line-height: 52px;
+  word-wrap: break-word;
+}
+
+.description-3 {
+  width: 327px;
+  height: 147px;
+  color: #344563;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  word-wrap: break-word;
+}
+
+.connect {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.connect-title {
+  color: #7f8cff;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  line-height: 24px;
+  word-wrap: break-word;
+}
+
+.social-icons {
+  display: flex;
+  gap: 8px;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  padding: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: #505f79;
+  border-radius: 50%;
+}
+
+.get-resume {
+  padding: 12px;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px #6070ff solid;
+  text-align: center;
+  color: #396df2;
+  font-size: 17px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.51px;
+  word-wrap: break-word;
+}
+
+.languages,
+.frameworks,
+.skills {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+  gap: 12px;
+}
+
+.grey {
+  background-color: rgb(240, 239, 239);
+  border-radius: 10px;
+}
+
+.heading-lang {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.languages-title,
+.frameworks-title,
+.skills-title {
+  width: 237px;
+  color: black;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  line-height: 24px;
+  word-wrap: break-word;
+}
+
+.language,
+.framework,
+.skill {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 26px 16px 12px;
+}
+
+.language img,
+.framework img,
+.skill img {
+  width: 48px;
+  height: 48px;
+  border-radius: 9999px;
+  border: 1px white solid;
+}
+
+.language-name {
+  width: 215px;
+  height: 24px;
+  color: #253858;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  line-height: 20px;
+  word-wrap: break-word;
+}
+
+.frameworks,
+.skills {
+  width: 327px;
+  height: 72px;
+  position: relative;
+}
+
+.frameworks-title,
+.skills-title {
+  width: 237px;
+  left: 12px;
+  top: 24px;
+  position: absolute;
+  color: black;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  line-height: 24px;
+  word-wrap: break-word;
+}
+
+.skillset {
+  display: none;
+}
+
+.framework,
+.skill {
+  padding: 15px;
+  left: 291px;
+  top: 18px;
+  position: absolute;
+  border-radius: 8px;
+  display: inline-flex;
+}
+
+.framework img,
+.skill img {
+  width: 18px;
+  height: 21px;
+  left: 9px;
+  top: 5px;
+  position: absolute;
+}
+
+.container > div > div:last-child {
+  width: 327px;
+  height: 1px;
+  left: 0;
+  top: 71px;
+  position: absolute;
+  background: #dfe1e6;
+}
