@@ -12,7 +12,7 @@
   max-width: 100%;
   background-color: #f7f7f9;
   margin: 0 auto;
-  overflow-x:hidden;
+  overflow-x: hidden;
 }
 
 header {
@@ -25,6 +25,10 @@ header {
   align-items: center;
   flex-shrink: 0;
   background-color: white;
+}
+
+.nav_desktop {
+  display: none;
 }
 
 nav {
@@ -40,7 +44,6 @@ nav {
   flex-direction: column;
   align-items: flex-start;
   gap: 12px;
-  /* background: url("./images/header-shapes\ mobile@2x.svg") no-repeat; */
   border-radius: 0 0 0 80px;
   background-color: white;
   min-width: 320px;
@@ -71,13 +74,14 @@ nav {
 
 #cut-ellipse-1 {
   width: 38.503px;
-  height: 19.252px;
+  height: 31.252px;
   transform: rotate(-0.88deg);
   flex-shrink: 0;
   fill: #6070ff;
   position: absolute;
   left: 0;
   top: 45px;
+  background: url("/images/Ellipse-11.png") no-repeat;
 }
 
 #rectangle-2 {
@@ -115,10 +119,13 @@ nav {
 }
 
 #cut-ellipse-hollow {
+  height: 100px;
+  width: 51px;
   flex-shrink: 0;
   position: absolute;
   top: 62px;
   right: 0;
+  background: url("/images/Ellipse-3.png") no-repeat;
 }
 
 #cut-ellipse-2 {
@@ -136,7 +143,7 @@ nav {
   height: 12.176px;
   transform: rotate(23.34deg);
   flex-shrink: 0;
-  background: var(--primary-b-50, #ebebff);
+  background: #ebebff;
   position: absolute;
   bottom: 8%;
   left: 50%;
@@ -230,14 +237,35 @@ nav {
   align-items: center;
   gap: 12px;
   border-radius: 16px;
-  border: 1px solid  #dfe1e6;
+  border: 1px solid #dfe1e6;
   background: #fff;
 }
 
 .image {
+  width: 100%;
   max-width: 100%;
   height: 220px;
   border-radius: 8px;
+}
+
+.img-1 {
+  background: url("/images/Snapshoot-Portfolio.png") no-repeat;
+  background-position: center;
+}
+
+.img-2 {
+  background: url("/images/Snapshoot-Portfolio-1.png") no-repeat;
+  background-position: center;
+}
+
+.img-3 {
+  background: url("/images/Snapshoot-Portfolio-2.png") no-repeat;
+  background-position: center;
+}
+
+.img-4 {
+  background: url("/images/Snapshoot-Portfolio-4.png") no-repeat;
+  background-position: center;
 }
 
 .block {
@@ -727,7 +755,7 @@ form textarea {
   height: 130px;
   flex-shrink: 0;
   border-radius: 8px;
-  border: 1px solid  #cfd8dc;
+  border: 1px solid #cfd8dc;
   background: #fff;
   color: #b3bac5;
   font-family: 'Poppins', sans-serif;
@@ -737,4 +765,188 @@ form textarea {
   line-height: 24px;
   margin: 10px 0;
   padding: 15px 38px 15px 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .nav {
+    display: none;
+  }
+
+  header {
+    padding: 10px 100px;
+  }
+
+  .nav_desktop {
+    display: block;
+  }
+
+  .nav_desktop ul {
+    display: flex;
+    gap: 30px;
+  }
+
+  .nav_desktop ul li {
+    list-style: none;
+  }
+
+  .nav_desktop ul li a {
+    text-decoration: none;
+    color: #344563;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+  }
+
+  #rectangle-1 {
+    width: 85.669px;
+    height: 13.44px;
+    transform: rotate(-41.142deg);
+    flex-shrink: 0;
+    left: 1%;
+    top: 5%;
+  }
+
+  #cut-ellipse-1 {
+    width: 78.48px;
+    height: 57.24px;
+    transform: rotate(4.12deg);
+    flex-shrink: 0;
+    background: url("/images/Ellipse-desktop.png") no-repeat;
+    background-size: 58px;
+    left: 4%;
+    top: 8%;
+  }
+
+  #ellipse-2 {
+    width: 13px;
+    height: 13px;
+    transform: rotate(52.971deg);
+    flex-shrink: 0;
+    background-color: #cbcdff;
+    position: absolute;
+    top: 13.4%;
+    left: 61.5%;
+    border-radius: 999px;
+  }
+
+  #rectangle-2 {
+    width: 39.462px;
+    height: 7.734px;
+    transform: rotate(-12.767deg);
+    flex-shrink: 0;
+    background: #6070ff;
+    position: absolute;
+    top: 12%;
+    left: 60%;
+  }
+
+  #rectangle-3 {
+    width: 132.58px;
+    height: 24.021px;
+    transform: rotate(-35deg);
+    flex-shrink: 0;
+    background: #ebebff;
+    position: absolute;
+    top: 9%;
+    right: 6%;
+  }
+
+  #cut-ellipse-hollow {
+    background: url("/images/Ellipse-desktop-cut.png") no-repeat;
+    width: 119px;
+    height: 19%;
+    background-size: 115px;
+    right: 3%;
+    top: 11%;
+    transform: rotate(7deg);
+  }
+
+  .headline {
+    padding: 150px 185px;
+  }
+
+  #rectangle-4 {
+    width: 78.063px;
+    height: 14.176px;
+    transform: rotate(23.34deg);
+    flex-shrink: 0;
+    background: #ebebff;
+    position: absolute;
+    bottom: 7.8%;
+    left: 50%;
+  }
+
+  #ellipse-1 {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    background: #6070ff;
+    position: absolute;
+    bottom: 9%;
+    border-radius: 99px;
+    left: 56%;
+  }
+
+  .work-section {
+    justify-content: center;
+  }
+
+  .cards {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .image {
+    width: 100%;
+    max-width: 100%;
+    height: 220px;
+    border-radius: 8px;
+  }
+
+  .img-1 {
+    height: 309px;
+    width: 373px;
+    background: url("/images/Desktop/Snapshoot-Portfolio.png") no-repeat;
+    background-position: center;
+    background-size: 370px;
+  }
+
+  .img-2 {
+    height: 309px;
+    width: 373px;
+    background: url("/images/Desktop/Snapshoot-Portfolio-2.png") no-repeat;
+    background-position: center;
+    background-size: 370px;
+  }
+
+  .img-3 {
+    height: 309px;
+    width: 373px;
+    background: url("/images/Desktop/Snapshoot-Portfolio-3.png") no-repeat;
+    background-position: center;
+    background-size: 370px;
+  }
+
+  .img-4 {
+    height: 309px;
+    width: 373px;
+    background: url("/images/Desktop/Snapshoot-Portfolio-4.png") no-repeat;
+    background-position: center;
+    background-size: 370px;
+  }
+
+  .description-2 {
+    width: 387px;
+    height: 45px;
+    color: #344563;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word;
+  }
 }
