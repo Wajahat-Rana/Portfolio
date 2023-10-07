@@ -767,6 +767,12 @@ form textarea {
   padding: 15px 38px 15px 16px;
 }
 
+.array {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+
 @media screen and (min-width: 768px) {
   .nav {
     display: none;
@@ -807,6 +813,7 @@ form textarea {
     flex-shrink: 0;
     left: 1%;
     top: 5%;
+    filter: drop-shadow(1px 3px 4px rgb(114, 112, 112));
   }
 
   #cut-ellipse-1 {
@@ -818,6 +825,7 @@ form textarea {
     background-size: 58px;
     left: 4%;
     top: 8%;
+    filter: drop-shadow(1px 3px 4px rgb(114, 112, 112));
   }
 
   #ellipse-2 {
@@ -830,6 +838,7 @@ form textarea {
     top: 13.4%;
     left: 61.5%;
     border-radius: 999px;
+    filter: drop-shadow(1px 3px 4px rgb(114, 112, 112));
   }
 
   #rectangle-2 {
@@ -841,6 +850,7 @@ form textarea {
     position: absolute;
     top: 12%;
     left: 60%;
+    filter: drop-shadow(1px 3px 4px rgb(114, 112, 112));
   }
 
   #rectangle-3 {
@@ -852,6 +862,7 @@ form textarea {
     position: absolute;
     top: 9%;
     right: 6%;
+    filter: drop-shadow(1px 3px 4px rgb(114, 112, 112));
   }
 
   #cut-ellipse-hollow {
@@ -862,6 +873,7 @@ form textarea {
     right: 3%;
     top: 11%;
     transform: rotate(7deg);
+    filter: drop-shadow(1px 3px 4px rgb(114, 112, 112));
   }
 
   .headline {
@@ -877,6 +889,7 @@ form textarea {
     position: absolute;
     bottom: 7.8%;
     left: 50%;
+    filter: drop-shadow(1px 3px 4px rgb(114, 112, 112));
   }
 
   #ellipse-1 {
@@ -888,6 +901,7 @@ form textarea {
     bottom: 9%;
     border-radius: 99px;
     left: 56%;
+    filter: drop-shadow(1px 3px 4px rgb(114, 112, 112));
   }
 
   .work-section {
@@ -898,6 +912,7 @@ form textarea {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    width: 80%;
   }
 
   .image {
@@ -908,11 +923,11 @@ form textarea {
   }
 
   .img-1 {
-    height: 309px;
     width: 373px;
+    height: 309px;
     background: url("/images/Desktop/Snapshoot-Portfolio.png") no-repeat;
     background-position: center;
-    background-size: 370px;
+    background-size: 300px;
   }
 
   .img-2 {
@@ -940,13 +955,151 @@ form textarea {
   }
 
   .description-2 {
-    width: 387px;
-    height: 45px;
+    height: 41px;
     color: #344563;
-    font-size: 15px;
+    font-size: 14px;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 23px;
     word-wrap: break-word;
+  }
+
+  .about {
+    flex-direction: row;
+    align-items: baseline;
+    padding: 50px 0;
+  }
+
+  .header-3 {
+    margin-left: 3%;
+    width: 45%;
+  }
+
+  .array {
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+  }
+
+  .language,
+  .framework,
+  .skill {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+    width: 92px;
+    height: 100px;
+    padding: 10px;
+  }
+
+  .languages,
+  .frameworks,
+  .skills {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    gap: 12px;
+    width: 85%;
+  }
+
+  .language-name {
+    width: 100%;
+    justify-content: center;
+    text-align: left;
+  }
+
+  #round-ellipse {
+    left: 25%;
+    top: 8%;
+    filter: drop-shadow(1px 3px 4px rgb(70, 69, 69));
+  }
+
+  .contact-2 p {
+    width: 74%;
+  }
+
+  .contact-2 h1 {
+    margin-top: 0%;
+  }
+
+  #ellipse-cut-white {
+    top: 10.8%;
+    right: 7%;
+    transform: rotate(45deg);
+    filter: drop-shadow(1px 3px 4px rgb(70, 69, 69));
+  }
+
+  #rectangle-blue {
+    width: 93.701px;
+    height: 16.211px;
+    top: 11%;
+    right: 5%;
+    filter: drop-shadow(1px 3px 4px rgb(70, 69, 69));
+  }
+
+  #rectangle {
+    bottom: 52%;
+    left: 6%;
+    filter: drop-shadow(1px 3px 4px rgb(70, 69, 69));
+  }
+
+  #round-ellipse-white {
+    bottom: 49%;
+    left: 6.5%;
+    filter: drop-shadow(1px 3px 4px rgb(70, 69, 69));
+  }
+
+  #round-ellipse-another {
+    width: 50px;
+    height: 50px;
+    background: #7f8cff;
+    border-radius: 99px;
+    position: absolute;
+    bottom: 30%;
+    right: 8%;
+    filter: drop-shadow(1px 3px 4px rgb(70, 69, 69));
+  }
+
+  #rectangle-another {
+    width: 11px;
+    height: 80px;
+    background: white;
+    top: 83%;
+    left: 19%;
+    position: absolute;
+    transform: rotate(52deg);
+    filter: drop-shadow(1px 3px 4px rgb(70, 69, 69));
+  }
+
+  #last {
+    width: 77px;
+    position: absolute;
+    left: 20%;
+    top: 88%;
+    height: 67px;
+    background: url("/images/Ellipse-desktop.png") no-repeat;
+    background-size: 70px;
+    filter: drop-shadow(1px 3px 4px rgb(70, 69, 69));
+  }
+
+  form button {
+    filter: drop-shadow(1px 3px 4px rgb(70, 69, 69));
+  }
+
+  .container-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .flex {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
   }
 }
