@@ -424,7 +424,7 @@ p {
   overflow: hidden;
   background-color: white;
   border-radius: 0 80px 0 0;
-  padding: 0px 0px 0px 20px;
+  padding: 0 0 0 20px;
 }
 
 .header-3 {
@@ -489,9 +489,11 @@ p {
   justify-content: center;
   align-items: center;
 }
-.lang-side{
+
+.lang-side {
   margin-top: 5%;
 }
+
 .get-resume {
   padding: 12px;
   border-radius: 8px;
@@ -681,7 +683,7 @@ p {
   height: 17.211px;
   transform: rotate(-23.177deg);
   flex-shrink: 0;
-  background:  #7f8cff;
+  background: #7f8cff;
   position: absolute;
   top: 4%;
   right: -3%;
@@ -796,7 +798,31 @@ form textarea {
   width: 95%;
 }
 
+.info-desktop {
+  display: none;
+}
+
+.header-2-desktop {
+  display: none;
+}
+
 @media screen and (min-width: 768px) {
+  .info-desktop {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .none {
+    display: none;
+  }
+
+  .header-2-desktop {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
   .nav {
     display: none;
   }
@@ -1118,7 +1144,7 @@ form textarea {
     align-items: baseline;
   }
 
-  .row-reverse{
+  .row-reverse {
     flex-direction: row-reverse;
   }
 }
