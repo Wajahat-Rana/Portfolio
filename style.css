@@ -842,6 +842,7 @@ form textarea {
 
   .nav_desktop ul li {
     list-style: none;
+    transition: all 0.2s ease;
   }
 
   .nav_desktop ul li a {
@@ -853,6 +854,30 @@ form textarea {
     font-style: normal;
     font-weight: 500;
     line-height: 20px;
+  }
+
+  .nav_desktop ul li:hover {
+    scale: 1.2;
+  filter: drop-shadow(1px 3px 4px rgb(114, 112, 112));  
+    
+  }
+  .project-link:hover{
+    background-color: #bed2f0;
+    filter: drop-shadow(1px 3px 4px rgb(114, 112, 112)); 
+    cursor: pointer;
+
+  }
+  .get-resume:hover{
+    background-color: #bed2f0;
+    filter: drop-shadow(1px 3px 4px rgb(114, 112, 112)); 
+    cursor: pointer;
+
+  }
+  form button:hover{
+    background-color: #c4c4c4;
+    filter: drop-shadow(1px 3px 4px rgb(114, 112, 112)); 
+    cursor: pointer;
+    color: white;
   }
 
   #rectangle-1 {
