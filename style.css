@@ -70,6 +70,7 @@ nav {
   position: absolute;
   left: -38px;
   top: 35px;
+  filter: drop-shadow(1px 3px 4px rgb(114, 112, 112));
 }
 
 #cut-ellipse-1 {
@@ -81,7 +82,8 @@ nav {
   position: absolute;
   left: 0;
   top: 45px;
-  background: url("/images/Ellipse-11.png") no-repeat;
+  background: url("./images/Ellipse-11.png") no-repeat;
+  filter: drop-shadow(1px 3px 4px rgb(114, 112, 112));
 }
 
 #rectangle-2 {
@@ -93,6 +95,7 @@ nav {
   position: absolute;
   top: 12%;
   left: 33%;
+  filter: drop-shadow(1px 3px 4px rgb(114, 112, 112));
 }
 
 #ellipse-2 {
@@ -105,6 +108,7 @@ nav {
   top: 12.5%;
   left: 33%;
   border-radius: 999px;
+  filter: drop-shadow(1px 3px 4px rgb(114, 112, 112));
 }
 
 #rectangle-3 {
@@ -116,6 +120,7 @@ nav {
   position: absolute;
   top: 48px;
   right: -15px;
+  filter: drop-shadow(1px 3px 4px rgb(114, 112, 112));
 }
 
 #cut-ellipse-hollow {
@@ -125,7 +130,8 @@ nav {
   position: absolute;
   top: 62px;
   right: 0;
-  background: url("/images/Ellipse-3.png") no-repeat;
+  background: url("./images/Ellipse-3.png") no-repeat;
+  filter: drop-shadow(1px 3px 4px rgb(114, 112, 112));
 }
 
 #cut-ellipse-2 {
@@ -136,6 +142,7 @@ nav {
   position: absolute;
   top: 73%;
   right: 12%;
+  filter: drop-shadow(1px 3px 4px rgb(114, 112, 112));
 }
 
 #rectangle-4 {
@@ -147,6 +154,7 @@ nav {
   position: absolute;
   bottom: 8%;
   left: 50%;
+  filter: drop-shadow(1px 3px 4px rgb(114, 112, 112));
 }
 
 #ellipse-1 {
@@ -158,6 +166,7 @@ nav {
   bottom: 8%;
   border-radius: 99px;
   left: 64%;
+  filter: drop-shadow(1px 3px 4px rgb(114, 112, 112));
 }
 
 #ellipse-hollow {
@@ -169,6 +178,7 @@ nav {
   position: absolute;
   bottom: 10%;
   left: 14%;
+  filter: drop-shadow(1px 3px 4px rgb(114, 112, 112));
 }
 
 .intro {
@@ -249,23 +259,27 @@ nav {
 }
 
 .img-1 {
-  background: url("/images/Snapshoot-Portfolio.png") no-repeat;
+  background: url("./images/Snapshoot-Portfolio.png") no-repeat;
   background-position: center;
+  filter: drop-shadow(1px 3px 4px rgb(114, 112, 112));
 }
 
 .img-2 {
-  background: url("/images/Snapshoot-Portfolio-1.png") no-repeat;
+  background: url("./images/Snapshoot-Portfolio-1.png") no-repeat;
   background-position: center;
+  filter: drop-shadow(1px 3px 4px rgb(114, 112, 112));
 }
 
 .img-3 {
-  background: url("/images/Snapshoot-Portfolio-2.png") no-repeat;
+  background: url("./images/Snapshoot-Portfolio-2.png") no-repeat;
   background-position: center;
+  filter: drop-shadow(1px 3px 4px rgb(114, 112, 112));
 }
 
 .img-4 {
-  background: url("/images/Snapshoot-Portfolio-4.png") no-repeat;
+  background: url("./images/Snapshoot-Portfolio-4.png") no-repeat;
   background-position: center;
+  filter: drop-shadow(1px 3px 4px rgb(114, 112, 112));
 }
 
 .block {
@@ -659,6 +673,7 @@ p {
   position: absolute;
   left: 42%;
   top: 6%;
+  filter: drop-shadow(1px 3px 4px rgb(114, 112, 112));
 }
 
 #rectangle-blue {
@@ -666,10 +681,11 @@ p {
   height: 17.211px;
   transform: rotate(-23.177deg);
   flex-shrink: 0;
-  background: var(--primary-b-300, #7f8cff);
+  background:  #7f8cff;
   position: absolute;
   top: 4%;
   right: -3%;
+  filter: drop-shadow(1px 3px 4px rgb(114, 112, 112));
 }
 
 #ellipse-cut-white {
@@ -677,6 +693,7 @@ p {
   position: absolute;
   top: 5.8%;
   right: 0%;
+  filter: drop-shadow(1px 3px 4px rgb(114, 112, 112));
 }
 
 #round-ellipse-white {
@@ -689,6 +706,7 @@ p {
   right: 20%;
   background-color: white;
   border-radius: 999px;
+  filter: drop-shadow(1px 3px 4px rgb(114, 112, 112));
 }
 
 #rectangle {
@@ -700,6 +718,7 @@ p {
   position: absolute;
   bottom: 8%;
   right: 7%;
+  filter: drop-shadow(1px 3px 4px rgb(114, 112, 112));
 }
 
 form {
@@ -817,7 +836,6 @@ form textarea {
     flex-shrink: 0;
     left: 1%;
     top: 5%;
-    filter: drop-shadow(1px 3px 4px rgb(114, 112, 112));
   }
 
   #cut-ellipse-1 {
@@ -825,11 +843,10 @@ form textarea {
     height: 57.24px;
     transform: rotate(4.12deg);
     flex-shrink: 0;
-    background: url("/images/Ellipse-desktop.png") no-repeat;
+    background: url("./images/Ellipse-desktop.png") no-repeat;
     background-size: 58px;
     left: 4%;
     top: 8%;
-    filter: drop-shadow(1px 3px 4px rgb(114, 112, 112));
   }
 
   #ellipse-2 {
@@ -842,7 +859,6 @@ form textarea {
     top: 13.4%;
     left: 61.5%;
     border-radius: 999px;
-    filter: drop-shadow(1px 3px 4px rgb(114, 112, 112));
   }
 
   #rectangle-2 {
@@ -854,7 +870,6 @@ form textarea {
     position: absolute;
     top: 12%;
     left: 60%;
-    filter: drop-shadow(1px 3px 4px rgb(114, 112, 112));
   }
 
   #rectangle-3 {
@@ -866,18 +881,16 @@ form textarea {
     position: absolute;
     top: 9%;
     right: 6%;
-    filter: drop-shadow(1px 3px 4px rgb(114, 112, 112));
   }
 
   #cut-ellipse-hollow {
-    background: url("/images/Ellipse-desktop-cut.png") no-repeat;
+    background: url("./images/Ellipse-desktop-cut.png") no-repeat;
     width: 119px;
     height: 19%;
     background-size: 115px;
     right: 3%;
     top: 11%;
     transform: rotate(7deg);
-    filter: drop-shadow(1px 3px 4px rgb(114, 112, 112));
   }
 
   .headline {
@@ -893,7 +906,6 @@ form textarea {
     position: absolute;
     bottom: 7.8%;
     left: 50%;
-    filter: drop-shadow(1px 3px 4px rgb(114, 112, 112));
   }
 
   #ellipse-1 {
@@ -905,7 +917,6 @@ form textarea {
     bottom: 9%;
     border-radius: 99px;
     left: 56%;
-    filter: drop-shadow(1px 3px 4px rgb(114, 112, 112));
   }
 
   .work-section {
@@ -929,15 +940,15 @@ form textarea {
   .img-1 {
     width: 373px;
     height: 309px;
-    background: url("/images/Desktop/Snapshoot-Portfolio.png") no-repeat;
+    background: url("./images/Desktop/Snapshoot-Portfolio.png") no-repeat;
     background-position: center;
-    background-size: 300px;
+    background-size: 370px;
   }
 
   .img-2 {
     height: 309px;
     width: 373px;
-    background: url("/images/Desktop/Snapshoot-Portfolio-2.png") no-repeat;
+    background: url("./images/Desktop/Snapshoot-Portfolio-2.png") no-repeat;
     background-position: center;
     background-size: 370px;
   }
@@ -945,7 +956,7 @@ form textarea {
   .img-3 {
     height: 309px;
     width: 373px;
-    background: url("/images/Desktop/Snapshoot-Portfolio-3.png") no-repeat;
+    background: url("./images/Desktop/Snapshoot-Portfolio-3.png") no-repeat;
     background-position: center;
     background-size: 370px;
   }
@@ -953,7 +964,7 @@ form textarea {
   .img-4 {
     height: 309px;
     width: 373px;
-    background: url("/images/Desktop/Snapshoot-Portfolio-4.png") no-repeat;
+    background: url("./images/Desktop/Snapshoot-Portfolio-4.png") no-repeat;
     background-position: center;
     background-size: 370px;
   }
@@ -1084,7 +1095,7 @@ form textarea {
     left: 20%;
     top: 88%;
     height: 67px;
-    background: url("/images/Ellipse-desktop.png") no-repeat;
+    background: url("./images/Ellipse-desktop.png") no-repeat;
     background-size: 70px;
     filter: drop-shadow(1px 3px 4px rgb(70, 69, 69));
   }
@@ -1105,5 +1116,9 @@ form textarea {
     display: flex;
     justify-content: space-evenly;
     align-items: baseline;
+  }
+
+  .row-reverse{
+    flex-direction: row-reverse;
   }
 }
